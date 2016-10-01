@@ -1,0 +1,149 @@
+.content_1 {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  -webkit-perspective: 2000px;
+  -webkit-perspective-origin: 50% 50%;
+  transition: all 1s ease-in-out;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: rotateY(0deg);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.content_1 .front {
+  background-color: tomato;
+}
+
+.content_1 .back {
+  background-color: yellow;
+}
+
+.content_2 {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  -webkit-perspective: 2000px;
+  -webkit-perspective-origin: 50% 50%;
+  transition: all 1s ease-in-out;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: rotateY(0deg);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.content_2 .front {
+  background-color: tomato;
+}
+
+.content_2 .back {
+  background-color: blue;
+}
+
+.content_3 {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  -webkit-perspective: 2000px;
+  -webkit-perspective-origin: 50% 50%;
+  transition: all 1s ease-in-out;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: rotateY(0deg);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.content_3 .front {
+  background-color: tomato;
+}
+
+.content_3 .back {
+  background-color: yellow;
+}
+
+.content_4 {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  -webkit-perspective: 2000px;
+  -webkit-perspective-origin: 50% 50%;
+  transition: all 1s ease-in-out;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: rotateY(0deg);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.content_4 .front {
+  background-color: tomato;
+}
+
+.content_4 .back {
+  background-color: green;
+}
+
+.content_5 {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  -webkit-perspective: 2000px;
+  -webkit-perspective-origin: 50% 50%;
+  transition: all 1s ease-in-out;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: rotateY(0deg);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.content_5 .front {
+  background-color: tomato;
+}
+
+.content_5 .back {
+  background-color: blue;
+}
+
+.content_6 {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  -webkit-perspective: 2000px;
+  -webkit-perspective-origin: 50% 50%;
+  transition: all 1s ease-in-out;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: rotateY(0deg);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.content_6 .front {
+  background-color: tomato;
+}
+
+.content_6 .back {
+  background-color: green;
+}
+
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ccc;
+  -webkit-backface-visibility: hidden;
+}
+
+.back {
+  -webkit-transform: rotateY(180deg);
+}
+.game {
+  width: 80%;
+  margin:0 auto;
+  text-align: center;
+}
